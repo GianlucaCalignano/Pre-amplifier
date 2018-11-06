@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/gianluca/smartGit/kicad/Pre-amplifier/pre_amplifier.sch</source>
+    <date>mar 06 nov 2018 13:12:21 CET</date>
+    <tool>Eeschema 5.0.0+dfsg1-2~bpo9+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pre_amplifier.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6440EA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B644188</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>BATT_JACK</value>
+      <footprint>CONNECTOR:BARRELJACK-WE-694106301002</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-connector" part="BARREL_JACK" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B644458</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4001</value>
+      <footprint>DIODE:DIODE-1206</footprint>
+      <datasheet>Ceramics 0.15A 75V</datasheet>
+      <fields>
+        <field name="Distributor">Farnell Italia S.r.l.</field>
+        <field name="Distributor Code">2708388</field>
+        <field name="Manufacturer">Taiwan Semiconductor</field>
+        <field name="Part Number">TS4148-RXG</field>
+        <field name="Price €">0.0469</field>
+      </fields>
+      <libsource lib="nowae-diode" part="TS4148-RYG" description="TS4148 RYG 150mA, 75V Switching Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B64459E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>500K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
+      <fields>
+        <field name="Distributor">Farnell Italia S.r.l.</field>
+        <field name="Distributor Code">514860</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Part Number">3224J-1-104E</field>
+        <field name="Price €">4.980</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B644656</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>CAPACITOR:CAPACITOR-1210</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-capacitor" part="CAPACITOR" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6446B4</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>CAPACITOR:CAPACITOR-1210</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-capacitor" part="CAPACITOR" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B64473A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22M</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6839FB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10M</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B683C03</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B683CFE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.7K</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B69890E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>CAPACITOR:CAPACITOR-1210</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-capacitor" part="CAPACITOR" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B69899B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47p</value>
+      <footprint>CAPACITOR:CAPACITOR-1210</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-capacitor" part="CAPACITOR" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B698A3A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>56k</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B698B5A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>15uF</value>
+      <footprint>CAPACITOR:CAPACITOR-1210</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-capacitor" part="CAPACITOR" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B698C2E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B698D8C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B698E6E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>CAPACITOR:CAPACITOR-1210</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-capacitor" part="CAPACITOR" description="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6C33FC</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_2X1</value>
+      <footprint>CONNECTOR:CONN-STRIP-2x1-2.54</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-connector" part="CONN_2X1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBEFD12</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>DIODE:DIODE-1206</footprint>
+      <datasheet>Ceramics 0.15A 75V</datasheet>
+      <fields>
+        <field name="Distributor">Farnell Italia S.r.l.</field>
+        <field name="Distributor Code">2708388</field>
+        <field name="Manufacturer">Taiwan Semiconductor</field>
+        <field name="Part Number">TS4148-RXG</field>
+        <field name="Price €">0.0469</field>
+      </fields>
+      <libsource lib="nowae-diode" part="TS4148-RXG" description="TS4148 RYG 150mA, 75V Switching Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBF0BF4</tstamp>
+    </comp>
+    <comp ref="DL1">
+      <value>RED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>Red</datasheet>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-led" part="RED" description="Red Led"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBF0D7E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>RESISTOR</value>
+      <footprint>RESISTOR:RESISTOR-1206</footprint>
+      <fields>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Price €">-</field>
+      </fields>
+      <libsource lib="nowae-resistor" part="RESISTOR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBF107F</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>SWITCH-3PDT</value>
+      <footprint>SparkFun-Electromechanical:STOMP-SWITCH-3PDT</footprint>
+      <libsource lib="SparkFun-Electromechanical" part="SWITCH-3PDT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8FF71</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL061</value>
+      <footprint>SOIC:SOIC8_3.9x4.9_1.27</footprint>
+      <datasheet>Single Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8</datasheet>
+      <fields>
+        <field name="Distributor">Mouser Electronics, Inc</field>
+        <field name="Distributor Code">595-TL061CDR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">TL061CDR</field>
+        <field name="Price €">0.46</field>
+      </fields>
+      <libsource lib="pre_amplifier" part="TL061" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC9597C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack3_Switch</value>
+      <footprint>progetto_delta:CL12327</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pre_amplifier" part="CL12327" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8E908</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AudioJack3_Switch</value>
+      <footprint>progetto_delta:CL12327</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pre_amplifier" part="CL12327" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC8EAF4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Electromechanical" part="SWITCH-3PDT">
+      <footprints>
+        <fp>*STOMP-SWITCH-3PDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SWITCH-3PDT</field>
+        <field name="Footprint">STOMP-SWITCH-3PDT</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="O" type="passive"/>
+        <pin num="P$2" name="P" type="passive"/>
+        <pin num="P$3" name="S" type="passive"/>
+        <pin num="P$4" name="O" type="passive"/>
+        <pin num="P$5" name="P" type="passive"/>
+        <pin num="P$6" name="S" type="passive"/>
+        <pin num="P$7" name="O" type="passive"/>
+        <pin num="P$8" name="P" type="passive"/>
+        <pin num="P$9" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nowae-capacitor" part="CAPACITOR">
+      <description>Capacitor</description>
+      <footprints>
+        <fp>CAPACITOR-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAPACITOR</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Price €">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nowae-connector" part="BARREL_JACK">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">BARREL_JACK</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Price €">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nowae-connector" part="CONN_2X1">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2X1</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Price €">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="nowae-diode" part="TS4148-RXG">
+      <description>TS4148 RYG 150mA, 75V Switching Diode</description>
+      <docs>http://www.taiwansemi.com/products/datasheet/TS4148%20RYG_M1612.pdf</docs>
+      <footprints>
+        <fp>DIODE-0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TS4148-RXG</field>
+        <field name="Footprint">DIODE:DIODE-1206</field>
+        <field name="Datasheet">Ceramics 0.15A 75V</field>
+        <field name="Manufacturer">Taiwan Semiconductor</field>
+        <field name="Part Number">TS4148-RXG</field>
+        <field name="Distributor">Farnell Italia S.r.l.</field>
+        <field name="Distributor Code">2708388</field>
+        <field name="Price €">0.0469</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nowae-diode" part="TS4148-RYG">
+      <description>TS4148 RYG 150mA, 75V Switching Diode</description>
+      <docs>http://www.taiwansemi.com/products/datasheet/TS4148%20RYG_M1612.pdf</docs>
+      <footprints>
+        <fp>DIODE-0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TS4148-RYG</field>
+        <field name="Footprint">DIODE:DIODE-0805</field>
+        <field name="Datasheet">Ceramics 0.15A 75V</field>
+        <field name="Manufacturer">Taiwan Semiconductor</field>
+        <field name="Part Number">TS4148-RYG</field>
+        <field name="Distributor">Farnell Italia S.r.l.</field>
+        <field name="Distributor Code">2708389</field>
+        <field name="Price €">0.0703</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nowae-led" part="RED">
+      <description>Red Led</description>
+      <footprints>
+        <fp>LED-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">DL</field>
+        <field name="Value">RED</field>
+        <field name="Datasheet">Red</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Price €">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nowae-resistor" part="RESISTOR">
+      <footprints>
+        <fp>RESISTOR-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR</field>
+        <field name="Manufacturer">-</field>
+        <field name="Part Number">-</field>
+        <field name="Distributor">-</field>
+        <field name="Distributor Code">-</field>
+        <field name="Price €">-</field>
+        <field name="Distributor2">-</field>
+        <field name="Distributor2 Code">-</field>
+        <field name="Distributor3">-</field>
+        <field name="Distributor3 Code">-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pre_amplifier" part="CL12327">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CL12327</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pre_amplifier" part="TL061">
+      <footprints>
+        <fp>SOT23-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL061</field>
+        <field name="Footprint">DIP-8/SOIC-8</field>
+        <field name="Datasheet">Single Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">TL061CDR</field>
+        <field name="Distributor">Mouser Electronics, Inc</field>
+        <field name="Distributor Code">595-TL061CDR</field>
+        <field name="Price €">0.46</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NULL" type="power_in"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NULL" type="power_in"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="SparkFun-Electromechanical">
+      <uri>/home/gianluca/Scaricati/SparkFun-Kicad-Libraries-master/SparkFun-Electromechanical.lib</uri>
+    </library>
+    <library logical="nowae-capacitor">
+      <uri>/home/gianluca/smartGit/kicad/libkicad/library/nowae-capacitor.lib</uri>
+    </library>
+    <library logical="nowae-connector">
+      <uri>/home/gianluca/smartGit/kicad/libkicad/library/nowae-connector.lib</uri>
+    </library>
+    <library logical="nowae-diode">
+      <uri>/home/gianluca/smartGit/kicad/libkicad/library/nowae-diode.lib</uri>
+    </library>
+    <library logical="nowae-led">
+      <uri>/home/gianluca/smartGit/kicad/libkicad/library/nowae-led.lib</uri>
+    </library>
+    <library logical="nowae-resistor">
+      <uri>/home/gianluca/smartGit/kicad/libkicad/library/nowae-resistor.lib</uri>
+    </library>
+    <library logical="pre_amplifier">
+      <uri>/home/gianluca/smartGit/kicad/Pre-amplifier/pre_amplifier.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(S1-PadP$1)">
+      <node ref="S1" pin="P$4"/>
+      <node ref="S1" pin="P$1"/>
+    </net>
+    <net code="2" name="Net-(S1-PadP$7)">
+      <node ref="S1" pin="P$7"/>
+    </net>
+    <net code="3" name="+VBAT">
+      <node ref="P2" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="4" name="/led-">
+      <node ref="DL1" pin="2"/>
+      <node ref="S1" pin="P$9"/>
+    </net>
+    <net code="5" name="Net-(DL1-Pad1)">
+      <node ref="DL1" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="8" name="/ringIN">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="9" name="/tipIN">
+      <node ref="J1" pin="6"/>
+      <node ref="S1" pin="P$2"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="S1" pin="P$8"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="14" name="/tipOUT">
+      <node ref="J2" pin="6"/>
+      <node ref="S1" pin="P$5"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="P1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="20" name="NC">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="21" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="22" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C4-Pad1)">
+      <node ref="R5" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="26" name="/sgnOUT">
+      <node ref="R11" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="S1" pin="P$6"/>
+    </net>
+    <net code="27" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="29" name="+V">
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R8" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="30" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C2-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="33" name="/sgnIN">
+      <node ref="S1" pin="P$3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="34" name="/4V5">
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+  </nets>
+</export>

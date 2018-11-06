@@ -1,0 +1,24 @@
+Reference; Quantity; Value; Footprint; Datasheet; Distributor; Distributor Code; Distributor2; Distributor2 Code; Distributor3; Distributor3 Code; Manufacturer; Part Number; Price €
+C1 ;1;4.7uF;CAPACITOR:CAPACITOR-1210;;-;-;-;-;-;-;-;-;-
+C2 ;1;0.1uF;CAPACITOR:CAPACITOR-1210;;-;-;-;-;-;-;-;-;-
+C3 ;1;1u;CAPACITOR:CAPACITOR-1210;;-;-;-;-;-;-;-;-;-
+C4 ;1;47p;CAPACITOR:CAPACITOR-1210;;-;-;-;-;-;-;-;-;-
+C5 ;1;100n;CAPACITOR:CAPACITOR-1210;;-;-;-;-;-;-;-;-;-
+C6 ;1;15uF;CAPACITOR:CAPACITOR-1210;;-;-;-;-;-;-;-;-;-
+D1 D2 ;2;1N4001;DIODE:DIODE-1206;Ceramics 0.15A 75V;Farnell Italia S.r.l.;2708388;;;;;Taiwan Semiconductor;TS4148-RXG;0.0469
+DL1 ;1;RED;LED_THT:LED_D3.0mm;Red;-;-;-;-;-;-;-;-;-
+J1 J2 ;2;AudioJack3_Switch;progetto_delta:CL12327;~
+P1 ;1;BATT_JACK;CONNECTOR:BARRELJACK-WE-694106301002;;-;-;-;-;-;-;-;-;-
+P2 ;1;CONN_2X1;CONNECTOR:CONN-STRIP-2x1-2.54;;-;-;-;-;-;-;-;-;-
+R1 ;1;22M;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R10 ;1;470;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R11 ;1;10K;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R2 ;1;2.7K;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R3 ;1;10M;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R4 ;1;1K;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R5 ;1;500K;Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical;;Farnell Italia S.r.l.;514860;;;;;Bourns;3224J-1-104E;4.980
+R6 R7 ;2;100K;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R8 ;1;RESISTOR;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+R9 ;1;56k;RESISTOR:RESISTOR-1206;;-;-;-;-;-;-;-;-;-
+S1 ;1;SWITCH-3PDT;SparkFun-Electromechanical:STOMP-SWITCH-3PDT;
+U1 ;1;TL061;SOIC:SOIC8_3.9x4.9_1.27;Single Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8;Mouser Electronics, Inc;595-TL061CDR;;;;;Texas Instruments;TL061CDR;0.46
