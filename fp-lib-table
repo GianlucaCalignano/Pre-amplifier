@@ -48,5 +48,5 @@
   (lib (name WIFI)(type KiCad)(uri ${KINOWAEMOD}/WIFI.pretty)(options "")(descr ""))
   (lib (name XPPOWER)(type KiCad)(uri ${KINOWAEMOD}/XPPOWER.pretty)(options "")(descr ""))
   (lib (name SparkFun-Electromechanical)(type KiCad)(uri ${KISPARKFUN}/SparkFun-Electromechanical.pretty)(options "")(descr ""))
-  (lib (name progetto_delta)(type KiCad)(uri ${KIPRJMOD}/progetto_delta.pretty)(options "")(descr ""))
+  (lib (name pre_amplifier)(type KiCad)(uri ${KIPRJMOD}/pre_amplifier.pretty)(options "")(descr ""))
 )
